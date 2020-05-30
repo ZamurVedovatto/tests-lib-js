@@ -1,5 +1,10 @@
 describe("booleans", () => {
-  // call the function
+  it("false === false", () => {
+    // code
+  });
+  it("true === true", () => {
+    // code
+  })
 })
 
 function describe(description, callback) {
