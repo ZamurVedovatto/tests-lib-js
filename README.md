@@ -1,2 +1,2 @@
-# tests-lib-js
- Building a JavaScript test library
+# Tests Library on Javascript
+Building a JavaScript test library
