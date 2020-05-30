@@ -1,9 +1,9 @@
 describe("booleans", () => {
   it("false === false", () => {
-    // code
+    // call expect funcion here
   });
   it("true === true", () => {
-    // code
+    // call expect funcion here
   })
 })
 
@@ -13,6 +13,16 @@ function describe(description, callback) {
 }
 
 function it(description, callback) {
-  console.log(description);
+  console.log(`   ${description}`);
   callback();
+}
+
+function expect(left) {
+  return {
+    toBe(right) {
+      if (left !== right) {
+        console.log(`   expected "${left}" to be "${right}"`);
+      }
+    }
+  };
 }
