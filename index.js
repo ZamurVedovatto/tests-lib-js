@@ -1,9 +1,9 @@
 describe("booleans", () => {
   it("false === false", () => {
-    // call expect funcion here
+    expect(false).toBe(true);
   });
   it("true === true", () => {
-    // call expect funcion here
+    expect(true).toBe(false);
   })
 })
 
